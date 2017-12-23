@@ -1,0 +1,2 @@
+# RecyclerViewSideBar
+Sidebar for RecyclerView
