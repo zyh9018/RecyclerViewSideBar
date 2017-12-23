@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zyh.test.myrecyclerview.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_list_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"/>
+
+    <com.zyh.widget.recyclerviewsidebar.sidebar.RecyclerViewSidebar
+        android:id="@+id/sidebar"
+        android:layout_width="26dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/floating_header"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:background="@drawable/contacts_float_header_toast_bg"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>
